@@ -17,47 +17,76 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage</li>
-          <li>The information inside the head element is called metadata, which helps the browser to render the page correctly</li>
-          <li>Metadata inside the head element is typically not seen by users</li>
-          <li>The body element reperesents the visible content shown to the user</li>
-          <li>Elements that are nested inside other elements are called child elements</li>
-          <li>The element that holds all the children is known as the parent element</li>
+          <li>Hypertext Markup Language (HTML) is used to create the structure of a webpage.</li>
+          <li>HTML is made up of elements which work together to build the structure of a webpage and provide a framework that makes it easy for users to navigate the webpage.</li>
+          <li>The head element contains information about the webpage.</li>
+          <li>The information inside the head element is called metadata, which helps the browser to render the page correctly.</li>
+          <li>Metadata inside the head element is typically not seen by users.</li>
+          <li>The body element reperesents the visible content shown to the user.</li>
+          <li>For HTML elements that are visible to users, content is contained between tags (an opening tag and closing tag). These tags are often represented by angle brackets with associated tag names inside them.</li>
+          <li>A closing tag begins with a forward slash, whereas an opening tag does not contain a forward slash.</li>
+          <li>Elements that are nested inside other elements are called child elements.</li>
+          <li>The element that holds all the children is known as the parent element.</li>
+          <li>HTML attributes define additional information about an element. HTML attributes are always defined in the beginning element - never the closing element.</li>
+          <li>HTML elements are case sensitive.</li>
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element</li>
-          <li>A padding indicate how much space we want around the content inside an element</li>
-          <li>CSS rules are comprised of selectors and declarations</li>
-          <li>A selector defines the element or attributes to which the rules, or declarations, will apply</li>
-          <li>Declarations contain two important components: (1) the CSS property we want to apply and (2) the value of the propery</li>
+          <li>Cascading Style Sheets (CSS) is a programming language used by developers to add style to a webpage and defines how content appears to users. This includes the colors, aesthetics, visual layout, and organization of a webpage.</li>
+          <li>CSS defines and formats style rules for specific elements of an HTML page</li>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li>Inline CSS styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li>Internal CSS style sheets contain CSS rules for the webpage in the head section of the HTML file, where the rules only apply to that page. Keep in mind that a single change made to the CSS rule will apply to all tagged page elements.</li>
+          <li>The External CSS style sheet is the most commonly used method by developers because it keeps all their CSS rules in a separate file, which makes design changes easier. This is made possible by including the "link" element in the HTML's "head"</li>
+          <li>CSS rules are comprised of selectors and declarations.</li>
+          <li>A selector defines the element or attributes to which the rules, or declarations, will apply.</li>
+          <li>Declarations contain two important components: (1) the CSS property we want to apply and (2) the value of the propery.
+          <li>Declarations are NOT case sensitive.</li>
+          <li>A margin property indicates how much space we want around the outside of an element.</li>
+          <li>A padding property indicate how much space we want around the content inside an element.</li>
+          <li>Every HTML element is essentially a box; each box consists of margins outside the element, and the elements boarders, padding, and content. This is sometimes referred to as the CSS Box Model.</li>
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>Git is a version control system that lets you manage and keep track of each version of your project.</li>
+          <li>To access Git, we use the command line.</li>
+          <li>Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of our code, which are each stored in a unique commit.</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git checkout branch-name: swtiches to a branch we want to move into next</li>
-          <li>git add -A: sets the stage for the changes you want to make</li>
+          <li>git add: adds modifications in the current working branch to the staging area</li>
+          <li>git add -A: indicates that we want to add ALL changes in the current working branch to the staging area</li>
+          <li>git commit -m "descriptive message": a commit message that describes what the commit contains</li>
+          <li>git pull: fetch and merge any modifications (commits) from the tracking remote branch into the local environment</li>
+          <li>git pull origin main: the "origin" keyword indicates the source of the pull will be in the GitHub repo; the "main" keyword indicates the branch name (in this case, we are reciving a branch called "main" from the GitHub repository)</li>
+          <li>git push origin [branch]: pushes (transmits) the changes made on our local branch to our remote repository branch</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>JavaScript allows you to power your websites with effects, interactivity, data communication, and much more.</li>
+          <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
+          <li>Developers use JavaScript to power their websites with effects, interactivity, data communication, and much more.</li>
           <li>JavaScript is case sensitve.</li>
+          <li>Each line of JavaScript code ends with a semicolon.</li>
           <li>Variables, strings, and data types are the basic features of JavaScript.</li>
-          <li>A variable is a named container that allows us to store data in our code</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Variables may hold values that have different data types.</li>
-          <li>Arrays are structures that allow you to store multiple values in a single reference.</li>
-          <li>Control flow is the order in which a computer executes code in a script</li>
-
+          <li>A string is a data type that represents textual data and is contained in between quotation marks.</li>
+          <li>The console.log method is used to output a message to the web console by adding an argument. Chrome DevTools is a developer's tool that allows you to view the console.log output.</li>
+          <li>Control flow is the order in which a computer executes code in a script. To control the order in which our code is executed or if it will be executed at all, we can use conditional statements and loops.</li>
+          <li>"If" statements are used as a way of creating a conditional statement, where code will only be executed IF the statement meets a condition, or is true.</li>
+          <li>In JavaScript, we can have more than one condition (similarly to pseudocode).</li>
+          <li>Arrays are structures that allow you to store multiple values in a single reference. An array is a single variable that is used to hold a group of related data.</li>
+          <li>Arrays in JavaScript are zero-indexed and sequential, meaning that the first item in any array has an index of 0 (not 1). The indices, or location identifiers, will always be whole numbers that increase by 1 each time.</li>
+          <li>A "for" loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
         </ul>
       </section>
     </main>
