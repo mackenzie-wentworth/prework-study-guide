@@ -2,7 +2,7 @@
 
 ## Description
 
-As a beginner in software developent, this Prework Study Guide serves as a resource to help bootcamp students understand various program langauges and applications. In this guide, you will find introductory notes on HTML, CSS, JavaScript, and Git.
+As a beginner in software developent, this Prework Study Guide serves as a resource to help bootcamp students understand various software langauges and tools used to create web applications. In this guide, you will find introductory notes on HTML, CSS, JavaScript, and Git.
 
 ## Installation
 
